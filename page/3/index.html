@@ -32,88 +32,93 @@
 
 <body class="loading">
     <div id="loader"></div>
-    <div id="single">
-  
-    <div id="top" style="display: block;">
-        <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-        <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-            <source type="audio/mpeg" src="">
-        </audio>
+    <div class="nav">
+    <ul id="menu-menu" class="menu">
         
-            <ul id="audio-list" style="display:none">
-                
-                    <li title='0' data-url='http://link.hhtjim.com/163/5146554.mp3'></li>
-                
-                    <li title='1' data-url='http://link.hhtjim.com/qq/001faIUs4M2zna.mp3'></li>
-                
-            </ul>
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/about/" title="about" target="_blank" rel="noopener">about</a>
+        </li>
         
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/dddd/" title="Github" target="_blank" rel="noopener">Github</a>
+        </li>
         
-        <div class="bar" style="width: 0;"></div>
-        <a class="icon-home image-icon" href="javascript:;"></a>
-        <div title="播放/暂停" class="icon-play"></div>
-        <h3 class="subtitle"></h3>
-        <div class="social">
-            <div class="like-icon">
-                <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>
-            </div>
-            <div>
-                <div class="share">
-                    <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
-                </div>
-                <div id="qr"></div>
-            </div>
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/hhhh/" title="Twitter" target="_blank" rel="noopener">Twitter</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/archive/" title="存档" target="_blank" rel="noopener">存档</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
+        </li>
+        
+    </ul>
+    <p id="copyright">
+        &copy; 2018 songci.
+        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
+        by Fechin
+    </p>
+</div>
+
+<div id="container">
+    
+<div id="screen">
+    <div id="mark">
+        <div class="layer" data-depth="0.4">
+            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
         </div>
-        <div class="scrollbar"></div>
     </div>
+    <div id="vibrant">
+        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
+            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
+        </svg>
+        <div></div>
+    </div>
+    <div id="header">
+        <div>
+            <p style="margin-left:50%">牵着你的手，就像牵着一条狗...emm</p>
+            <a href="/"><img src="/img/logo.png"></a>
+            <div class="icon-menu switchmenu"></div>
+        </div>
+    </div>
+    
+    <div id="post0">
+        <p>七月 30 2018</p>
+        <h2><a href="/2018/07/30/博客功能扩展/" title="博客功能扩展" class="posttitle">博客功能扩展</a></h2>
+        <p class="summary" style="font-family: STLiti; margin-top: 10%">开发新页面如归档、分类、标签、搜索等</p>
+    </div>
+    
+</div>
 
-    <div class="article">
-        <div class='main'>
-        <div class="content-ATC"> 
-
+    <div id="primary">
         
-          
-          
-            
-            
-              
-              
-              <section class="archives-wrap">
-                <div class="archive-year-wrap">
-                  <a href="/archives/2018" class="archive-year">2018</a>
-                </div>
-                <div class="archives">
-            
-            <ul>
-  
-  
-    <a>
-        <a href="/2018/07/26/李白诗选/" title="李白诗选" class="posttitle">李白诗选</a>
+<div class="post">
+    <a href="/2018/04/30/中文测试二/" title="[post]中文测试二">
+        <img src="/img/cover.jpg" class="cover" width="680" height="440">
     </a>
-  
-
-
-  <span style="float: right;">
-      <a href="/2018/07/26/李白诗选/" class="archive-article-date">
-  七月 26 2018
-</a>
-
-
-  </span>
-</ul>
-
-
-          
-          
-            </div></section>
-          
-        
-        
-        
-</div> 
+    <div class="else">
+        <p>四月 30 2018</p>
+        <h3><a href="/2018/04/30/中文测试二/" title="[post]中文测试二" class="posttitle">[post]中文测试二</a></h3>
+        <p style="font-family: STLiti; margin-top: 10%"></p>
+    </div>
 </div>
-</div> 
+
+
+
+
+    </div>
+    
 </div>
+<div id="preview"></div>
+
 </body>
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
