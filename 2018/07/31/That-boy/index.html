@@ -40,7 +40,7 @@
     <div class="bar" style="width: 0;"></div>
     <a class="icon-home image-icon" href="javascript:;"></a>
     <div title="播放/暂停" class="icon-play"></div>
-    <h3 class="subtitle">[post]hexo主题添加评论功能</h3>
+    <h3 class="subtitle">That boy</h3>
     <div class="social">
         <!--<div class="like-icon">-->
             <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -59,42 +59,30 @@
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">[post]hexo主题添加评论功能</h1>
+        <h1 class="title">That boy</h1>
         <div class="stuff">
-            <span class="fa fa-calendar"> 五月 01 2018</span>/
-            <span class="fa post-count"> 全文字数：301</span>/
+            <span class="fa fa-calendar"> 七月 31 2018</span>/
+            <span class="fa post-count"> 全文字数：0</span>/
             <span class="fa post-count"> 阅读时长：1</span>
+            
+                /&nbsp<span class="fa fa-tags">
+    
+    
+          <a href='/tags/音乐/' title="音乐" class="stuff" style="border-bottom: 1px dashed lightgray;">音乐</a>
+    
+ </sapn> 
             
         </div>
         
         
         <div class="content Markdown">
-            <p>前言：本文简要介绍livere评论系统的的添加，如您想要添加其他评论系统，请拉至文末，阅读相关博文（或者查阅更多资料）</p>
-<a id="more"></a>
-<h1 id="一、注册评论系统"><a href="#一、注册评论系统" class="headerlink" title="一、注册评论系统"></a>一、注册评论系统</h1><p>动手前请阅读网友博客：<a href="https://blog.csdn.net/ganzhilin520/article/details/79048010" target="_blank" rel="noopener">传送门</a></p>
-<h1 id="二、修改相关文件"><a href="#二、修改相关文件" class="headerlink" title="二、修改相关文件"></a>二、修改相关文件</h1><p>1、修改配置文件 D:\hexo\themes\indigoCard\_config.yml，添加如下代码：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#来必力评论系统</span></span><br><span class="line"><span class="attr">livere_uid:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<p>2、修改脚本文件 D:\hexo\themes\indigoCard\layout_partial\post\comment.ejs，添加如下代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- partial(&apos;../plugins/livere&apos;) %&gt;</span><br></pre></td></tr></table></figure>
-<p>3、添加脚本文件 D:\hexo\themes\indigoCard\layout_partial\plugins\livere.ejs，代码如下：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- livere BEGIN --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"lv-container"</span> <span class="attr">data-id</span>=<span class="string">"city"</span> <span class="attr">data-uid</span>=<span class="string">"MTAyMC8zNjE0Mi8xMjY3Nw=="</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">   (function(d, s) &#123;</span></span><br><span class="line"><span class="undefined">       var j, e = d.getElementsByTagName(s)[0];</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">       if (typeof LivereTower === 'function') &#123; return; &#125;</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">       j = d.createElement(s);</span></span><br><span class="line"><span class="undefined">       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';</span></span><br><span class="line"><span class="undefined">       j.async = true;</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">       e.parentNode.insertBefore(j, e);</span></span><br><span class="line"><span class="undefined">   &#125;)(document, 'script');</span></span><br><span class="line"><span class="undefined">	</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">noscript</span>&gt;</span> 为正常使用来必力评论功能请激活JavaScript<span class="tag">&lt;/<span class="name">noscript</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- livere END --&gt;</span></span><br></pre></td></tr></table></figure>
-<p>简单而言，其中代码来自于官方网站。</p>
-<h1 id="三、重新部署"><a href="#三、重新部署" class="headerlink" title="三、重新部署"></a>三、重新部署</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<h1 id="四、其他相关博文"><a href="#四、其他相关博文" class="headerlink" title="四、其他相关博文"></a>四、其他相关博文</h1><p>添加Valine评论系统  <a href="https://www.xxwhite.com/2017/Valine.html" target="_blank" rel="noopener">传送门</a></p>
-<p>其他评论系统介绍 <a href="https://blog.csdn.net/xiangzhihong8/article/details/77703791" target="_blank" rel="noopener">传送门</a></p>
+            <p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/poem.jpg" alt=""></p>
+<p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/poem.jpg" class="full-image"> </p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-                <source type="audio/mpeg" src="">
+                <source type="audio/mpeg" src="http://music.163.com/song/527654083/?userid=365056779">
             </audio>
-            
-                <ul id="audio-list" style="display:none">
-                    
-                        <li title='0' data-url='http://link.hhtjim.com/163/5146554.mp3'></li>
-                    
-                        <li title='1' data-url='http://link.hhtjim.com/qq/001faIUs4M2zna.mp3'></li>
-                    
-                </ul>
             
          
             
@@ -105,12 +93,12 @@
 
 <nav  role="pagination"   style="margin-top: 5%">
     
-    <a class="pull-left" href="/2018/07/14/安装centos操作系统/" style="float: left; border-bottom: 1px dashed lightgray;" title="安装centos操作系统">
+    <a class="pull-left" href="/2018/08/02/gallery-test/" style="float: left; border-bottom: 1px dashed lightgray;" title="gallery-test">
         上一篇
     </a>
     
     
-    <a class="pull-right" href="/2018/04/30/中文测试一/" style="border-bottom: 1px dashed lightgray;" title="[post]中文测试一">
+    <a class="pull-right" href="/2018/07/30/博客功能扩展/" style="border-bottom: 1px dashed lightgray;" title="博客功能扩展">
         下一篇
     </a>
     
@@ -144,6 +132,26 @@
 
 
 
+  <div class="post-body">
+    <div class="note primary">
+        <div class="popular-posts-header">相关文章</div>
+        <ul class="popular-posts">
+            
+                <li class="popular-posts-item">
+                    
+
+                    
+
+                    <div class="popular-posts-title"><a href="/2018/07/25/That-girl/" rel="bookmark">That girl</a></div>
+
+                    
+
+                </li>
+            
+        </ul>
+    </div>
+  </div>
+
 </div>
 
 
@@ -154,10 +162,6 @@
          
     </div>
     
-        
-            <div class='side'>
-                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一、注册评论系统"><span class="toc-text">一、注册评论系统</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二、修改相关文件"><span class="toc-text">二、修改相关文件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三、重新部署"><span class="toc-text">三、重新部署</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四、其他相关博文"><span class="toc-text">四、其他相关博文</span></a></li></ol>
-            </div>
         
     
 </div>

@@ -9,7 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>SONGCI</title>
-
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
@@ -20,6 +19,7 @@
     <link rel="icon" href="/img/favicon.png"> 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
     <link rel="stylesheet" href="/css/diaspora.css">
+    <link rel="stylesheet" href="/css/gallery.css">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({
@@ -29,240 +29,35 @@
     </script>
    <!--font-awesome-->
    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
         
     <body class="loading">
         <div id="loader"></div>
-        <!--search样式-->
-<style>
-   .search-content .pure-input {
-        
-        width: 100%;
-        height: auto;
-    }
-
-    .search-content .pure-input:focus {
-        border-color: #2196F3 !important;
-    }
-
-
-     .search-content .search-result {
-        color: #999;
-    }
-
-
-    .search-result-list {
-        margin-top: 10px;
-    }
-
-
-    .search-result-list a.search-result-title {
-        color: #202020;
-        font-weight: normal;
-        font-size: 1.2rem;
-    }
-
-    .search-result-list a.search-result-title:hover {
-        color: #2196F3;
-    }
-
-    .search-result-list .search-keyword {
-        color: red;
-        font-weight: bold;   
-    }
-
-    .search-result-list .li {
-        border-bottom: 1px dashed lightgray;
-        margin-bottom: 20px;
-    }
-</style>
-
-
-<!--search搜索区域-->
-<div id="single">
-    <div id="top" style="display: block;">
-    <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-    <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-        <source type="audio/mpeg" src="">
-    </audio>
-    
-        <ul id="audio-list" style="display:none">
-            
-                <li title='0' data-url='http://link.hhtjim.com/163/5146554.mp3'></li>
-            
-                <li title='1' data-url='http://link.hhtjim.com/qq/001faIUs4M2zna.mp3'></li>
-            
-        </ul>
-    
-    
-    <div class="bar" style="width: 0;"></div>
-    <a class="icon-home image-icon" href="javascript:;"></a>
-    <div title="播放/暂停" class="icon-play"></div> 
-    <h3 class="subtitle">search</h3>
-    
-    <div class="social">
-        <div class="like-icon">
-            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>
-        </div>
-        <div>
-            <div class="share">
-                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
-            </div>
-            <div id="qr"></div>
-        </div>
-       
+        <div id="container">
+<div id="single" class="page">
+    <div id="top">
+        <a class="icon-left image-icon" href="javascript:history.back()"></a>
     </div>
-    <div class="scrollbar"></div>
-</div>
+    <div class="section">
+        <div class="article">
+            <div class="main">
+                <div class="content-ATC">
 
-    <div class="article">
-        <div class='main'>
-         <div class="content-ATC">
-                <div class="search-content">
-                    <div class="pure-form">
-                        <input type="text" id="local-search-input" name="q" results="0" autocomplete="off" placeholder="Search" class="pure-input pure-input-1" />    
-                    </div>
-                    <div id="local-search-result"></div>
-                  
+                    
+
+                          
+
+                    
+
                 </div>
-        </div>
+            </div>
         </div>
     </div>
 </div>
 
-
-
-<!--js脚本函数-->
-
-<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
-
-<script>
-    
-// A local search script with the help of [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search)
-// Copyright (C) 2015 
-// Joseph Pan <http://github.com/wzpan>
-// Shuhao Mao <http://github.com/maoshuhao>
-// Edited by MOxFIVE <http://github.com/MOxFIVE>
-// Edited by Mingfei Gao <http://gaomf.cn>
-
-var searchFunc = function(path, search_id, content_id) {
-    'use strict';
-    $.ajax({
-        url: path,
-        dataType: "xml",
-        success: function( xmlResponse ) {
-            // get the contents from search data
-            var datas = $( "entry", xmlResponse ).map(function() {
-                return {
-                    title: $( "title", this ).text(),
-                    content: $("content",this).text(),
-                    url: $( "url" , this).text()
-                };
-            }).get();
-            var $input = document.getElementById(search_id);
-            var $resultContent = document.getElementById(content_id);
-            $input.addEventListener('input', function(){
-                var finalHTML='<ul class=\"search-result-list\">';
-                var str = "";                
-                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                $resultContent.innerHTML = "";
-                if (this.value.trim().length <= 0) {
-                    return;
-                }
-                // Search result Array
-                function SearchData(str, score) {
-                    this.str = str;
-                    this.score = score;
-                }
-                var SearchResultArr = new Array();
-                var tmpscore;
-                // perform local searching
-                datas.forEach(function(data) {
-                    var content_index = [];
-                    var data_title = data.title.trim().toLowerCase();
-                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url.replace("http://gaomingfei.xyz","");
-                    var index_title = -1;
-                    var index_content = -1;
-                    var first_occur = -1;
-                    // only match artiles with not empty titles and contents
-                    if(data_title != '' && data_content != '') {
-                        tmpscore = 0;
-                        keywords.forEach(function(keyword, i) {
-                            index_title = data_title.indexOf(keyword);
-                            index_content = data_content.indexOf(keyword);
-                            
-                            if (index_title >= 0) {
-                                tmpscore += 30;
-                            }
-                            if (index_content >= 0) {
-                                if (first_occur < 0) {
-                                    first_occur = index_content;
-                                }
-                                while (index_content >= 0) {
-                                    tmpscore += 1;
-                                    index_content = data_content.indexOf(keyword, index_content + 1);
-                                }
-                            }
-                        });
-                    }
-                    // show search results
-                    if (tmpscore > 0) {
-                        str = "<li class=\"li\"><a href='"+ data_url +"' class='search-result-title' target='_blank'>" + data.title +"</a>";
-                        var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        // cut out characters
-                        var start = first_occur - 10;
-                        var end = first_occur + 10;
-                        if(start < 0){
-                            start = 0;
-                        }
-                        if(start == 0){
-                            end = 10;
-                        }
-                        if(end > content.length){
-                            end = content.length;
-                        }
-                        var match_content = content.substr(start, end); 
-                        // highlight all keywords
-                        keywords.forEach(function(keyword){
-                            var regS = new RegExp(keyword, "gi");
-                            match_content = match_content.replace(regS, "<span class=\"search-keyword\">"+keyword+"</span>");
-                        })
-                        str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        
-                        SearchResultArr.push(new SearchData(str, tmpscore));
-                    }
-                })
-                
-                // Sort Search Result
-                function compareScore(a, b) {
-                    return a.score - b.score;
-                }
-                SearchResultArr.sort(compareScore);
-                
-                // Final HTML
-                SearchResultArr.forEach(function(data){
-                    finalHTML += data.str;
-                })
-                $resultContent.innerHTML = finalHTML;
-            })
-        }
-    })
-}
-
-var search_path = "search.json";
-if (search_path.length == 0) {
-search_path = "search.xml";
-}
-var path = "/" + search_path;
-searchFunc(path, 'local-search-input', 'local-search-result');
-
-
-
-</script>
-
-
+</div>
 
 
     </body>
@@ -326,156 +121,151 @@ searchFunc(path, 'local-search-input', 'local-search-result');
 
         
 
+
+
         
-         
             <style>
-    .local-search-popup {
-        display: none;
-        left: 0;
-        top: 0;
-        padding: 0;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        background: rgba(255, 255, 255, .9);
-        color: #333;
-        z-index: 9999;
-        overflow: auto;
-    }
+  .local-search-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: rgba(255, 255, 255, .9);
+    color: #333;
+    z-index: 9999;
+    border-radius: 5px;
+    overflow: auto;
+  }
 
-    #local-search-input {
-        width: 50%;
-        border: none;
-        outline: none;
-        border-bottom: 1px solid #151515;
-        background-color: initial;
-        margin-left: 25%; 
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 10px;
-        font-size: 18px;
-    }
+  #local-search-input {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #151515;
+    background-color: initial;
+  }
 
-    #local-search-result{
-        width: 50%;
-        border: none;
-        outline: none;
-        background-color: initial;
-        margin-left: 25%;
-    }
+  #local-search-result{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: initial;
+  }
 
-    .search-result-list {
-        list-style: none;
-        padding-left: 0;
-    }
+  .search-result {
+    line-height: 20px;  
+    padding: 5px 0 10px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-    .search-result-list > li {
-        margin-top: 15px;
-        border-bottom: 1px solid #ddd;
-        transition: all ease .3s;
-    }
+  .search-keyword {
+    border-bottom: 1px dashed #f00;
+    font-weight: bold;
+    color: #c00;
+  }
 
-    .search-result-list > li:hover {
-        border-bottom: 1px solid gray;
-    }
+  .search-result-title {
+    font-weight: bold;
+    border-bottom: 1px dashed lightgray;
+    font-size: 16px;
+  }
 
-    .search-result-title {
-        font-size: 16px;
-        font-weight: bold;
-        border-bottom: 1px solid lightgray;
-    }
-    .search-result {
-        line-height: 20px;
-        border-bottom: transparent;
-        display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+  #no-result{
+    color: #ccc; 
+  }
 
-    .search-keyword {
-        font-weight: normal;
-        color: #c00;
-        border-bottom: 1px dashed #f00;
-        font-weight: bold;
-        color: #f00;
-    }
+  .search-result-list {
+    list-style: none;
+    padding-left: 0;
+  }
 
-    @media (min-width: 890px) {
-        .popup-btn-close {
-            position: absolute;
-            top: 15px;
-            left: 45px;
-            border: 1px solid #151515;
-            padding: 0px 10px;
-            border-top-left-radius: 8px;
-            border-bottom-right-radius: 8px;
-            cursor: pointer;
-            transition: all ease .3s;
-        }
-        
-        .popup-btn-close:hover {
-            background: #151515;
-            opacity: .9;
-            color: #fff;
-        }
-    }
-    #no-result
-    {
-        color: lightgray;
-    }
+  .search-result-list > li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    transition: all ease .3s;
+  }
 
-    @media (max-width: 890px) {
-        .popup-btn-close {
-            font-size: 0;
-            position: fixed;
-            right: 20px;
-            bottom: 50px;
-            width: 50px;
-            height: 50px;
-            background: #fff;
-            border-radius: 50%;
-            box-shadow: 1px 1px 5px #888;
-            cursor: pointer;
-        }
-        .popup-btn-close::after {
-            content: '←';
-            color: #151515;
-            position: absolute;
-            top: 0;
-            left: 0;
-            font-size: 20px;
-            width: 100%;
-            height: 100%;
-            line-height: 50px;
-            text-align: center;
-        }
+  .search-result-list > li:hover {
+    border-bottom: 1px solid gray;
+  }
+
+  @media (min-width: 890px) {
+    .popup-btn-close {
+      position: absolute;
+      top: 15px;
+      left: 35px;
+      border: 1px solid #151515;
+      padding: 0px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all ease .3s;
     }
+    .popup-btn-close:hover {
+      background: #151515;
+      opacity: .9;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 890px) {
+    .popup-btn-close {
+      font-size: 0;
+      position: fixed;
+      right: 20px;
+      bottom: 50px;
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: 1px 1px 5px #888;
+      cursor: pointer;
+    }
+    .popup-btn-close::after {
+      content: '←';
+      color: #151515;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 20px;
+      width: 100%;
+      height: 100%;
+      line-height: 50px;
+      text-align: center;
+    }
+  }
 </style>
 
-         
-<div class="content-ATC3" >
-    <div class="popup search-popup local-search-popup">
-        <span class="popup-btn-close">
-            ESC
-        </span>
-        <div class="container">
-            <div class="col-md-8 col-md-offset-2">
-            <div class="local-search-header clearfix">
-                    <span class="search-icon">
-                   
-                    </span>
-            
-                    <div class="local-search-input-wrapper">
-                        <input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
-                    </div>
-            </div>
-            </div>
+<div class="content-ATC3">
+  <div class="popup search-popup local-search-popup">
+      <span class="popup-btn-close">
+        ESC
+      </span>
+      <div class="container">
+        <div class="col-md-8 col-md-offset-2">
+
+          <div class="local-search-header clearfix">
+              <span class="search-icon"></span>
+              <div class="local-search-input-wrapper">
+                <input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
+              </div>
+          </div>
+
+          <div id="local-search-result"></div>
+
         </div>
-        <div id="local-search-result"></div>
-    </div>
+      </div>
+  </div>
 </div>
 
 
@@ -537,7 +327,6 @@ searchFunc(path, 'local-search-input', 'local-search-result');
         }
       })
     }
-
 
     // search function;
     var searchFunc = function(search_id, content_id) {
@@ -716,7 +505,7 @@ searchFunc(path, 'local-search-input', 'local-search-result');
               }
 
               slicesOfContent.forEach(function (slice) {
-                resultItem += "<p class=\"search-result\">" + highlightKeyword(content, slice) +"...</p>";
+                resultItem +=  "<p class=\"search-result\">" + highlightKeyword(content, slice) + "...</p>";
               });
 
               resultItem += "</li>";
@@ -732,7 +521,7 @@ searchFunc(path, 'local-search-input', 'local-search-result');
         if (keywords.length === 1 && keywords[0] === "") {
           resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
         } else if (resultItems.length === 0) {
-          resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /> no result.</div>'
+          resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /> no result </div>'
         } else {
           resultItems.sort(function (resultLeft, resultRight) {
             if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
@@ -794,6 +583,26 @@ searchFunc(path, 'local-search-input', 'local-search-result');
   </script>
 
 
-        
        
+
+       
+            <script type="text/javascript" src="/js/love.js"></script>
+      
+
+      <style>
+#totop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+}
+</style>
+
+<div id="totop">
+  <a href="javascript:;"> <img src="/img/totop.png"/> </a>
+</div>
+      <script src="/js/totop.js"></script>
+
+       <script type="text/javascript" src="js/script.js"></script>
+    
 </html>

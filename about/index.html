@@ -9,7 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>SONGCI</title>
-
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
@@ -20,6 +19,7 @@
     <link rel="icon" href="/img/favicon.png"> 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
     <link rel="stylesheet" href="/css/diaspora.css">
+    <link rel="stylesheet" href="/css/gallery.css">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({
@@ -29,25 +29,36 @@
     </script>
    <!--font-awesome-->
    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
         
     <body class="loading">
         <div id="loader"></div>
-        <div id="single" class="page">
+        <div id="container">
+<div id="single" class="page">
     <div id="top">
         <a class="icon-left image-icon" href="javascript:history.back()"></a>
     </div>
     <div class="section">
         <div class="article">
             <div class="main">
-                <div class="content">
+                <div class="content-ATC">
+
                     
+
+                        
+
+                    
+
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+</div>
+
 
     </body>
         <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
@@ -110,156 +121,151 @@
 
         
 
+
+
         
-         
             <style>
-    .local-search-popup {
-        display: none;
-        left: 0;
-        top: 0;
-        padding: 0;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        background: rgba(255, 255, 255, .9);
-        color: #333;
-        z-index: 9999;
-        overflow: auto;
-    }
+  .local-search-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: rgba(255, 255, 255, .9);
+    color: #333;
+    z-index: 9999;
+    border-radius: 5px;
+    overflow: auto;
+  }
 
-    #local-search-input {
-        width: 50%;
-        border: none;
-        outline: none;
-        border-bottom: 1px solid #151515;
-        background-color: initial;
-        margin-left: 25%; 
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 10px;
-        font-size: 18px;
-    }
+  #local-search-input {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #151515;
+    background-color: initial;
+  }
 
-    #local-search-result{
-        width: 50%;
-        border: none;
-        outline: none;
-        background-color: initial;
-        margin-left: 25%;
-    }
+  #local-search-result{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: initial;
+  }
 
-    .search-result-list {
-        list-style: none;
-        padding-left: 0;
-    }
+  .search-result {
+    line-height: 20px;  
+    padding: 5px 0 10px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-    .search-result-list > li {
-        margin-top: 15px;
-        border-bottom: 1px solid #ddd;
-        transition: all ease .3s;
-    }
+  .search-keyword {
+    border-bottom: 1px dashed #f00;
+    font-weight: bold;
+    color: #c00;
+  }
 
-    .search-result-list > li:hover {
-        border-bottom: 1px solid gray;
-    }
+  .search-result-title {
+    font-weight: bold;
+    border-bottom: 1px dashed lightgray;
+    font-size: 16px;
+  }
 
-    .search-result-title {
-        font-size: 16px;
-        font-weight: bold;
-        border-bottom: 1px solid lightgray;
-    }
-    .search-result {
-        line-height: 20px;
-        border-bottom: transparent;
-        display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+  #no-result{
+    color: #ccc; 
+  }
 
-    .search-keyword {
-        font-weight: normal;
-        color: #c00;
-        border-bottom: 1px dashed #f00;
-        font-weight: bold;
-        color: #f00;
-    }
+  .search-result-list {
+    list-style: none;
+    padding-left: 0;
+  }
 
-    @media (min-width: 890px) {
-        .popup-btn-close {
-            position: absolute;
-            top: 15px;
-            left: 45px;
-            border: 1px solid #151515;
-            padding: 0px 10px;
-            border-top-left-radius: 8px;
-            border-bottom-right-radius: 8px;
-            cursor: pointer;
-            transition: all ease .3s;
-        }
-        
-        .popup-btn-close:hover {
-            background: #151515;
-            opacity: .9;
-            color: #fff;
-        }
-    }
-    #no-result
-    {
-        color: lightgray;
-    }
+  .search-result-list > li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    transition: all ease .3s;
+  }
 
-    @media (max-width: 890px) {
-        .popup-btn-close {
-            font-size: 0;
-            position: fixed;
-            right: 20px;
-            bottom: 50px;
-            width: 50px;
-            height: 50px;
-            background: #fff;
-            border-radius: 50%;
-            box-shadow: 1px 1px 5px #888;
-            cursor: pointer;
-        }
-        .popup-btn-close::after {
-            content: '←';
-            color: #151515;
-            position: absolute;
-            top: 0;
-            left: 0;
-            font-size: 20px;
-            width: 100%;
-            height: 100%;
-            line-height: 50px;
-            text-align: center;
-        }
+  .search-result-list > li:hover {
+    border-bottom: 1px solid gray;
+  }
+
+  @media (min-width: 890px) {
+    .popup-btn-close {
+      position: absolute;
+      top: 15px;
+      left: 35px;
+      border: 1px solid #151515;
+      padding: 0px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all ease .3s;
     }
+    .popup-btn-close:hover {
+      background: #151515;
+      opacity: .9;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 890px) {
+    .popup-btn-close {
+      font-size: 0;
+      position: fixed;
+      right: 20px;
+      bottom: 50px;
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: 1px 1px 5px #888;
+      cursor: pointer;
+    }
+    .popup-btn-close::after {
+      content: '←';
+      color: #151515;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 20px;
+      width: 100%;
+      height: 100%;
+      line-height: 50px;
+      text-align: center;
+    }
+  }
 </style>
 
-         
-<div class="content-ATC3" >
-    <div class="popup search-popup local-search-popup">
-        <span class="popup-btn-close">
-            ESC
-        </span>
-        <div class="container">
-            <div class="col-md-8 col-md-offset-2">
-            <div class="local-search-header clearfix">
-                    <span class="search-icon">
-                   
-                    </span>
-            
-                    <div class="local-search-input-wrapper">
-                        <input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
-                    </div>
-            </div>
-            </div>
+<div class="content-ATC3">
+  <div class="popup search-popup local-search-popup">
+      <span class="popup-btn-close">
+        ESC
+      </span>
+      <div class="container">
+        <div class="col-md-8 col-md-offset-2">
+
+          <div class="local-search-header clearfix">
+              <span class="search-icon"></span>
+              <div class="local-search-input-wrapper">
+                <input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
+              </div>
+          </div>
+
+          <div id="local-search-result"></div>
+
         </div>
-        <div id="local-search-result"></div>
-    </div>
+      </div>
+  </div>
 </div>
 
 
@@ -321,7 +327,6 @@
         }
       })
     }
-
 
     // search function;
     var searchFunc = function(search_id, content_id) {
@@ -500,7 +505,7 @@
               }
 
               slicesOfContent.forEach(function (slice) {
-                resultItem += "<p class=\"search-result\">" + highlightKeyword(content, slice) +"...</p>";
+                resultItem +=  "<p class=\"search-result\">" + highlightKeyword(content, slice) + "...</p>";
               });
 
               resultItem += "</li>";
@@ -516,7 +521,7 @@
         if (keywords.length === 1 && keywords[0] === "") {
           resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
         } else if (resultItems.length === 0) {
-          resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /> no result.</div>'
+          resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /> no result </div>'
         } else {
           resultItems.sort(function (resultLeft, resultRight) {
             if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
@@ -578,6 +583,26 @@
   </script>
 
 
-        
        
+
+       
+            <script type="text/javascript" src="/js/love.js"></script>
+      
+
+      <style>
+#totop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+}
+</style>
+
+<div id="totop">
+  <a href="javascript:;"> <img src="/img/totop.png"/> </a>
+</div>
+      <script src="/js/totop.js"></script>
+
+       <script type="text/javascript" src="js/script.js"></script>
+    
 </html>
