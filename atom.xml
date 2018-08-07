@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yousite.com/"/>
-  <updated>2018-08-03T10:57:03.309Z</updated>
+  <updated>2018-08-07T16:15:12.105Z</updated>
   <id>https://yousite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-theme-mom</title>
+    <link href="https://yousite.com/2018/08/06/hexo-theme-mom/"/>
+    <id>https://yousite.com/2018/08/06/hexo-theme-mom/</id>
+    <published>2018-08-06T06:13:56.000Z</published>
+    <updated>2018-08-07T16:15:12.105Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>todo</strong></p><ul><li style="list-style: none"><input type="checkbox"> layout页</li><li style="list-style: none"><input type="checkbox"> head</li><li style="list-style: none"><input type="checkbox"> header</li><li style="list-style: none"><input type="checkbox"> footer</li></ul><hr><ul><li style="list-style: none"><input type="checkbox"> index页</li><li style="list-style: none"><input type="checkbox"> page页</li><li style="list-style: none"><input type="checkbox"> post页</li></ul><p>不知不觉中，大学已进入尾声，但梦想与热血仍在：改变自己，改变社会，让更多的人不再流浪，让更多的人不再失业，让家乡更加现代化。总感谢这样的一个完美的渠道来帮助我完成学业，我一定会恪守初心，不断学习以充实自己，严格要求以完善技能，做一个德才兼备的青年。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;todo&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot;&gt; layout页&lt;/li&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type
+      
+    
+    </summary>
+    
+      <category term="HEXO博客" scheme="https://yousite.com/categories/HEXO%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="开发实践" scheme="https://yousite.com/tags/%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>Github入门术语</title>
