@@ -1,411 +1,449 @@
-    
-
+<!--There may be a bug, but don't worry, QiLing(器灵) says that it can work normally!-->
 <!DOCTYPE html>
-<html lang="" class="loading">
+<html>
+	
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>SONGCI</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="漫抄诗,"> 
-    
-    <meta name="author" content="songci"> 
-    <link rel="alternative" href="atom.xml" title="SONGCI" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    <link rel="stylesheet" href="/css/diaspora.css">
-    <link rel="stylesheet" href="/css/gallery.css">
-   
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8691406134231910",
-        enable_page_level_ads: true
-      });
-    </script>
-   <!--font-awesome-->
-   <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
-   
+	<title>SONGCI</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="songci">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+   	<!-- css -->
+	<link rel="stylesheet" href="/css/style.css">		
+	<!-- favicon -->
+	<link href="/img/favicon.ico" rel="Shortcut Icon" type="image/ico">
+	<!-- font-awesome -->
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-        
-    <body class="loading">
-        <div id="loader"></div>
-        <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="存档" target="_blank" rel="noopener">存档</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/about/" title="About" target="_blank" rel="noopener">About</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/gallery-test/" title="gallery-test" target="_blank" rel="noopener">gallery-test</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/gallery-test2/" title="gallery-test2" target="_blank" rel="noopener">gallery-test2</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/404-test/" title="404-test" target="_blank" rel="noopener">404-test</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/timeline/" title="timeline" target="_blank" rel="noopener">timeline</a>
-        </li>
-        
-    </ul>
 
-   <ul id="menu-menu" class="menu">
-        <li><a href="/atom.xml" title="rss" target="blank">RSS</a></li>
-        
-            <li><a href="javascript:;" class="popup-trigger" title="Search">站内搜索</a></li>
-        
-                
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="http://github.com/" title="Github" target="_blank" rel="noopener">Github</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://twitter.com/" title="Twitter" target="_blank" rel="noopener">Twitter</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel="noopener">Facebook</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://google.com/" title="Google" target="_blank" rel="noopener">Google</a>
-        </li>
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="http://weibo.com/" title="Weibo" target="_blank" rel="noopener">Weibo</a>
-        </li>
-        
-    </ul>
 
-    <p id="copyright">
-        &copy; 2018 songci.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
-        by Fechin
-    </p>
+
+<body>	
+	<!--Preloader-->
+<div id="preloader">
+	<div id="status">
+		<img alt="preloader" src="/img/logo.png">
+	</div>
+</div>
+<!--Preloader end-->
+
+
+	<header style="background-image: url( https://source.unsplash.com/collection/954550/1920x1080 );">	
+
+	
+		<div id="cd-logo"><a href="/"><img src="/img/logo.png" alt="Logo"></a></div>
+	
+		
+		
+ 		<p class="motto"></p>
+	
+	
+	
+		
+			<p class="page-name"></p>
+		
+		
+	
+</header>
+
+<div id="cd-nav">
+	<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+
+	<nav id="cd-main-nav">
+		<ul>
+			
+      		<li class="fa fa-/">
+           		<a href="/" title="主页">主页</a>	
+      		</li>
+    		
+      		<li class="fa fa-/archives">
+           		<a href="/archives" title="归档">归档</a>	
+      		</li>
+    		
+      		<li class="fa fa-/categories">
+           		<a href="/categories" title="分类">分类</a>	
+      		</li>
+    		
+      		<li class="fa fa-/tags">
+           		<a href="/tags" title="标签">标签</a>	
+      		</li>
+    		
+      		<li class="fa fa-/about">
+           		<a href="/about" title="关于">关于</a>	
+      		</li>
+    		
+      		<li class="fa fa-/gallery">
+           		<a href="/gallery" title="相册">相册</a>	
+      		</li>
+    		
+    		
+        	
+            	<li><a href="javascript:;" class="popup-trigger" title="Search">搜索</a></li>
+        	
+		</ul>
+	</nav>
 </div>
 
 
-<div id="container">
-    
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
-        <div>
-            <a href="/"><img src="/img/logo.png"></a>
-            <div class="icon-menu switchmenu"></div>
-        </div>
-    </div>
-    
-    <div id="post0">
-        <p>八月 06 2018</p>
-        <h2><a href="/2018/08/06/hexo-theme-mom/" title="hexo-theme-mom" class="posttitle">hexo-theme-mom</a></h2>
-        <p class="summary" style="font-family: STLiti; margin-top: 10%">着手开发一个hexo主题，练练手</p>
-    </div>
-    
-</div>
+	<main>
+	<div class="page-container">
+	
+	<!-- content srart -->
+<div class="am-g am-g-fixed blog-fixed">
+	<div class="am-u-md-12 am-u-sm-12">
+
+		
+			<article class="am-g blog-entry-article">
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+					<img src="/img/cart_cover.jpg" class="am-u-sm-12">
+				</div>	
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+					<a href="/2018/08/06/hexo-theme-mom/" itemprop="url">
+	<time datetime="2018-08-06T06:13:56.000Z" itemprop="datePublished">
+  		2018-08-06
+  </time>
+</a>    
+
+					
+	
+		<a href="/2018/08/06/hexo-theme-mom/" itemprop="url">		
+			hexo-theme-mom		
+		</a>
+	
 
 
-    <div id="primary">
+
+
+					
+						<p>
+							
+								todo
+
+ layout页
+ head
+ header
+ footer
+
+
+
+ index页
+ page页
+ post页
+
+不知不觉中，大学已进入尾声，但梦想与热血仍在：改变自己，改变社会，让更多的人不再流浪，让更多的人不再失业，让家乡更加现代化。总感谢这样的一个完美的渠道来帮助我完成学业，我一定会恪守初心，不断学习以充实自己，严格要求以完善技能，做一个德才兼备的青年。
+	
+							  
+						</p> 
+					
+
+					
+						<span class="continue-read">      	
+							<a href="/2018/08/06/hexo-theme-mom/" class="pull-right">
+								read more
+							</a>		
+						</span>
+					         		
+				</div>
+			</article>
+		
+			<article class="am-g blog-entry-article">
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+					<img src="/img/cart_cover.jpg" class="am-u-sm-12">
+				</div>	
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+					<a href="/2018/08/02/Github入门术语/" itemprop="url">
+	<time datetime="2018-08-02T11:14:05.000Z" itemprop="datePublished">
+  		2018-08-02
+  </time>
+</a>    
+
+					
+	
+		<a href="/2018/08/02/Github入门术语/" itemprop="url">		
+			Github入门术语		
+		</a>
+	
+
+
+
+
+					
+						<p>
+							
+								什么是Git 
+Git是一个版本控制系统（Version Control System），版本控制即记录一个或若干文件内容变化的情况。Git属于分布式版本控制系统，客户端提取文件时总是镜像的完整仓库。
+Repository  
+仓库，储存项目的空间。建立项目之前需要建立仓库，一个项目对应一个仓库。
+Issues  
+针对于项目bug，审查者提出的问题。or审查者希望项目增加新的特性，而提出的建议。	
+							  
+						</p> 
+					
+
+					
+						<span class="continue-read">      	
+							<a href="/2018/08/02/Github入门术语/" class="pull-right">
+								read more
+							</a>		
+						</span>
+					         		
+				</div>
+			</article>
+		
+			<article class="am-g blog-entry-article">
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+					<img src="/img/cart_cover.jpg" class="am-u-sm-12">
+				</div>	
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+					<a href="/2018/08/02/gallery-test/" itemprop="url">
+	<time datetime="2018-08-01T16:54:37.000Z" itemprop="datePublished">
+  		2018-08-02
+  </time>
+</a>    
+
+					
+	
+		<a href="/2018/08/02/gallery-test/" itemprop="url">		
+			gallery-test		
+		</a>
+	
+
+
+
+
+					
+						<p>没有文章内容...</p>    		
+					
+
+					
+						<span class="continue-read">      	
+							<a href="/2018/08/02/gallery-test/" class="pull-right">
+								read more
+							</a>		
+						</span>
+					         		
+				</div>
+			</article>
+		
+			<article class="am-g blog-entry-article">
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+					<img src="/img/cart_cover.jpg" class="am-u-sm-12">
+				</div>	
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+					<a href="/2018/07/31/That-boy/" itemprop="url">
+	<time datetime="2018-07-31T15:23:46.000Z" itemprop="datePublished">
+  		2018-07-31
+  </time>
+</a>    
+
+					
+	
+		<a href="/2018/07/31/That-boy/" itemprop="url">		
+			That boy		
+		</a>
+	
+
+
+
+
+					
+						<p>
+							
+								
+ 
+	
+							  
+						</p> 
+					
+
+					
+						<span class="continue-read">      	
+							<a href="/2018/07/31/That-boy/" class="pull-right">
+								read more
+							</a>		
+						</span>
+					         		
+				</div>
+			</article>
+		
+			<article class="am-g blog-entry-article">
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+					<img src="/img/cart_cover.jpg" class="am-u-sm-12">
+				</div>	
+
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+					<a href="/2018/07/30/博客功能扩展/" itemprop="url">
+	<time datetime="2018-07-29T16:18:51.000Z" itemprop="datePublished">
+  		2018-07-30
+  </time>
+</a>    
+
+					
+	
+		<a href="/2018/07/30/博客功能扩展/" itemprop="url">		
+			博客功能扩展		
+		</a>
+	
+
+
+
+
+					
+						<p>
+							
+								任务清单（todo list）
+
+ 归档页
+ 分类页
+ 标签页
+ 相册页 2018年7月30日
+ 搜索页 2018年7月31日
+ 时间页
+ 安装hexo-related-popular-posts插件 2018年8月1日
+ 文章加密访问、前端加密类hexo-encrypt. / hexo-blog-encrypt（废弃的API，放弃折腾）
+ hexo-pdf插件：pdf预览
+ 返回顶部 2018年	
+							  
+						</p> 
+					
+
+					
+						<span class="continue-read">      	
+							<a href="/2018/07/30/博客功能扩展/" class="pull-right">
+								read more
+							</a>		
+						</span>
+					         		
+				</div>
+			</article>
+		     
+
+		
+	<ul class="am-pagination">
+		
+		
+		
+			<li class="am-pagination-next">
+				<a href="/page/2/">下一页&raquo;</a>
+			</li>
+		
+	</ul>
+
+
         
-<div class="post">
-    <a href="/2018/08/02/Github入门术语/" title="Github入门术语">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>八月 02 2018</p>
-        <h3><a href="/2018/08/02/Github入门术语/" title="Github入门术语" class="posttitle">Github入门术语</a></h3>
-        <p style="font-family: 'STKaiti','STXingkai', 'seri'; margin-top: 10%">那个远大的理想：长大后要像仙子一样美，小苹果一样可爱</p>
-    </div>
+  
+  
+	
+	</div>
 </div>
+<!-- content end -->
 
+	<!--图文风格-->
 
-<div class="post">
-    <a href="/2018/08/02/gallery-test/" title="gallery-test">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>八月 02 2018</p>
-        <h3><a href="/2018/08/02/gallery-test/" title="gallery-test" class="posttitle">gallery-test</a></h3>
-        <p style="font-family: 'STKaiti','STXingkai', 'seri'; margin-top: 10%">hexo gallery  tag</p>
-    </div>
-</div>
+	</div>
+	<footer>
+	<div class="blog-text-center">
+		<div class="social">
+				
+				
+					<a href="http://github.com/" title="Github" target="_blank"><i class="fa fa-github"></i>&nbsp;</a>
+					
+				
+					<a href="http://github.com/" title="Weibo" target="_blank"><i class="fa fa-weibo"></i>&nbsp;</a>
+				
+				
+					<a href="http://github.com/" title="Email" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp;</a>
+					
+				
+					<a href="http://github.com/" title="QQ" target="_blank"><i class="fa fa-qq"></i>&nbsp;</a>
+					
+				
+					<a href="http://github.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i>&nbsp;</a>
+						
+				
+		</div>
+	</div>
 
+	<div  class="blog-text-center">
+		<div class="copyright">
+			
+				&copy; 2017 - 2018, content by songci. All Rights Reserved.			       	
+			
+		</div>
+	</div>
 
-<div class="post">
-    <a href="/2018/07/31/That-boy/" title="That boy">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>七月 31 2018</p>
-        <h3><a href="/2018/07/31/That-boy/" title="That boy" class="posttitle">That boy</a></h3>
-        <p style="font-family: 'STKaiti','STXingkai', 'seri'; margin-top: 10%">追求他脑海的天籁，用音符速写出色彩</p>
-    </div>
-</div>
-
-
-<div class="post">
-    <a href="/2018/07/30/博客功能扩展/" title="博客功能扩展">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>七月 30 2018</p>
-        <h3><a href="/2018/07/30/博客功能扩展/" title="博客功能扩展" class="posttitle">博客功能扩展</a></h3>
-        <p style="font-family: 'STKaiti','STXingkai', 'seri'; margin-top: 10%">开发新页面如归档、分类、标签、搜索等</p>
-    </div>
-</div>
-
-
-
-
-    </div>
-
-    
-        <div id="pager"><a href="/page/2/" class="more">加载更多</a></div>
-                               
-</div>
-
-<div id="preview"></div>
-
-    </body>
-        <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/diaspora.js"></script>
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-        
+	<div class="blog-text-center">
+		<div class="copyright">
+			<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.		
+		</div>
+	</div>
+</footer>
 
 
 
-        
-            <style>
-  .local-search-popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    background: rgba(255, 255, 255, .9);
-    color: #333;
-    z-index: 9999;
-    border-radius: 5px;
-    overflow: auto;
-  }
 
-  #local-search-input {
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 15px;
-    padding: 10px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #151515;
-    background-color: initial;
-  }
 
-  #local-search-result{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 15px;
-    border: none;
-    outline: none;
-    background-color: initial;
-  }
 
-  .search-result {
-    line-height: 20px;  
-    padding: 5px 0 10px;
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+	</main>
 
-  .search-keyword {
-    border-bottom: 1px dashed #f00;
-    font-weight: bold;
-    color: #c00;
-  }
+	
+<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 
-  .search-result-title {
-    font-weight: bold;
-    border-bottom: 1px dashed lightgray;
-    font-size: 16px;
-  }
+<script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
 
-  #no-result{
-    color: #ccc; 
-  }
+<script src="/js/main.js"></script> 
 
-  .search-result-list {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  .search-result-list > li {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;
-    transition: all ease .3s;
-  }
-
-  .search-result-list > li:hover {
-    border-bottom: 1px solid gray;
-  }
-
-  @media (min-width: 890px) {
-    .popup-btn-close {
-      position: absolute;
-      top: 15px;
-      left: 35px;
-      border: 1px solid #151515;
-      padding: 0px 10px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all ease .3s;
-    }
-    .popup-btn-close:hover {
-      background: #151515;
-      opacity: .9;
-      color: #fff;
-    }
-  }
-
-  @media (max-width: 890px) {
-    .popup-btn-close {
-      font-size: 0;
-      position: fixed;
-      right: 20px;
-      bottom: 50px;
-      width: 50px;
-      height: 50px;
-      background: #fff;
-      border-radius: 50%;
-      box-shadow: 1px 1px 5px #888;
-      cursor: pointer;
-    }
-    .popup-btn-close::after {
-      content: '←';
-      color: #151515;
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 20px;
-      width: 100%;
-      height: 100%;
-      line-height: 50px;
-      text-align: center;
-    }
-  }
+<style>
+	.motto {
+		color: #000000;
+		font-size: 20px;
+		margin: 60px 20px 0 20px;
+		line-height: 1.4;
+		font-family: 'Fang Song', 'Song', 'STSong', sans-serif;
+		text-align: center;
+	}
 </style>
 
-<div class="content-ATC3">
-  <div class="popup search-popup local-search-popup">
-      <span class="popup-btn-close">
-        ESC
-      </span>
-      <div class="container">
-        <div class="col-md-8 col-md-offset-2">
 
-          <div class="local-search-header clearfix">
-              <span class="search-icon"></span>
-              <div class="local-search-input-wrapper">
-                <input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
-              </div>
-          </div>
+	<script src="/js/motto.js"></script>
+	<script>
+		$(".motto").html(getMingYanContent());
+	</script>	
 
-          <div id="local-search-result"></div>
 
+
+    <div class="popup search-popup local-search-popup">
+    <span class="popup-btn-close">
+      ESC
+    </span>
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+
+        <div class="local-search-header clearfix">
+            <span class="search-icon"></span>
+            <div class="local-search-input-wrapper">
+              <input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
+            </div>
         </div>
-      </div>
-  </div>
-</div>
 
+        <div id="local-search-result"></div>
+
+      </div>
+    </div>
+</div>
 
 <script src="/js/ziploader.js"></script>
 
@@ -721,26 +759,9 @@
   </script>
 
 
-       
 
-       
-            <script type="text/javascript" src="/js/love.js"></script>
-      
 
-      <style>
-#totop{
-    position: fixed;
-    bottom: 50px;
-    right: 30px;
-    cursor: pointer;
-}
-</style>
 
-<div id="totop">
-  <a href="javascript:;"> <img src="/img/totop.png"/> </a>
-</div>
-      <script src="/js/totop.js"></script>
 
-       
-    
+</body>
 </html>
