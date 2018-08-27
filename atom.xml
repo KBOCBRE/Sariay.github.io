@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yousite.com/"/>
-  <updated>2018-08-27T12:57:26.973Z</updated>
+  <updated>2018-08-27T13:01:40.962Z</updated>
   <id>https://yousite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yousite.com/2018/08/27/Annie%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"/>
     <id>https://yousite.com/2018/08/27/Annie主题使用说明/</id>
     <published>2018-08-27T12:16:19.000Z</published>
-    <updated>2018-08-27T12:57:26.973Z</updated>
+    <updated>2018-08-27T13:01:40.962Z</updated>
     
     <content type="html"><![CDATA[<ul><li>首页的使用</li></ul><p>首页文章展示有两种模式：图文模式<code>cart</code>和纯净模式<code>pure</code>。默认图文模式（<code>index-style: cart</code>），你只需编辑主题目录下的<code>_config.yml</code>，设置<code>index-style</code>的参数，即可使用或扩展相关的文章展示模式。</p><ul><li>分类页的使用</li></ul><p>执行命令，创建分类页</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page categories</span><br></pre></td></tr></table></figure><p>然后编辑站点目录下的<code>source/categories/index.md</code>，添加如下<code>Front-matter</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">layout: categories</span><br><span class="line">type: categories</span><br></pre></td></tr></table></figure><ul><li>标签页的使用</li></ul><p>执行命令，创建标签页</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page tags</span><br></pre></td></tr></table></figure><p>然后编辑站点目录下的<code>source/tags/index.md</code>，添加如下<code>Front-matter</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">layout: tags</span><br><span class="line">type: tags</span><br></pre></td></tr></table></figure><ul><li>关于页的使用</li></ul><p>执行命令，创建标签页</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page about</span><br></pre></td></tr></table></figure><p>然后编辑站点目录下的<code>source/about/index.md</code>，添加如下<code>Front-matter</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">layout: about</span><br><span class="line">type: about</span><br></pre></td></tr></table></figure><ul><li>站内搜索的使用</li></ul><p>执行命令，安装插件<code>hexo-generator-search-zip</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-search-zip --save</span><br></pre></td></tr></table></figure><p>编辑站点目录下的<code>_config.yml</code>，添加如下语句</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">search.json</span></span><br><span class="line"><span class="attr">  zipPath:</span> <span class="string">search.zip</span></span><br><span class="line"><span class="attr">  versionPath:</span> <span class="string">searchVersion.txt</span></span><br><span class="line"><span class="attr">  field:</span> <span class="string">post</span></span><br><span class="line">  <span class="comment">#field: post, page or all（3个可选参数）</span></span><br></pre></td></tr></table></figure><p>编辑主题目录下的<code>_config.yml</code>，添加如下语句</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/flashlab/hexo-generator-search</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line"><span class="attr">    enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># if auto, trigger search by changing input</span></span><br><span class="line">    <span class="comment"># if manual, trigger search by pressing enter key or search button</span></span><br><span class="line"><span class="attr">    trigger:</span> <span class="string">auto</span></span><br><span class="line">    <span class="comment"># show top n results per article, show all results by setting to -1</span></span><br><span class="line"><span class="attr">    top_n_per_article:</span> <span class="number">2</span></span><br></pre></td></tr></table></figure><p><strong>其他问题，请联系我：</strong><a href="mailto:1261347403@qq.com" target="_blank" rel="noopener">1261347403@qq.com</a></p>]]></content>
     
@@ -339,43 +339,6 @@
   </entry>
   
   <entry>
-    <title>[post]中文测试一</title>
-    <link href="https://yousite.com/2018/04/30/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95%E4%B8%80/"/>
-    <id>https://yousite.com/2018/04/30/中文测试一/</id>
-    <published>2018-04-30T14:25:52.000Z</published>
-    <updated>2018-07-18T13:53:53.100Z</updated>
-    
-    <content type="html"><![CDATA[<style>​    #post{    letter-spacing: 0.05em;    font-size: 100px;    font-family: STLiti;    padding: 5px 0;​    }#post .text{    letter-spacing: 0.05em;    font-size: 20px;    font-family: STLiti;    padding: 5px 0;    color:  }</style><center id="post"><br><br>​    <div class="text"><br><br>#     题都城南庄<br><br>​    崔护<br><br>​    去年今日此门中，人面桃花相映红。<br><br>​    人面不知何处去，桃花依旧笑春风。<br><br>​    </div><br><br></center>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;style&gt;
-
-​    #post{
-
-    letter-spacing: 0.05em;
-    font-size: 100px;
-    font-family: STLiti;
-    padding: 5px 0;
-​    }
-
-#post .text{
-
- 
-      
-    
-    </summary>
-    
-      <category term="唐诗选抄" scheme="https://yousite.com/categories/%E5%94%90%E8%AF%97%E9%80%89%E6%8A%84/"/>
-    
-    
-      <category term="崔护诗选" scheme="https://yousite.com/tags/%E5%B4%94%E6%8A%A4%E8%AF%97%E9%80%89/"/>
-    
-  </entry>
-  
-  <entry>
     <title>[post]中文测试二</title>
     <link href="https://yousite.com/2018/04/30/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95%E4%BA%8C/"/>
     <id>https://yousite.com/2018/04/30/中文测试二/</id>
@@ -409,6 +372,43 @@
     
     
       <category term="纳兰性德" scheme="https://yousite.com/tags/%E7%BA%B3%E5%85%B0%E6%80%A7%E5%BE%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[post]中文测试一</title>
+    <link href="https://yousite.com/2018/04/30/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95%E4%B8%80/"/>
+    <id>https://yousite.com/2018/04/30/中文测试一/</id>
+    <published>2018-04-30T14:25:52.000Z</published>
+    <updated>2018-07-18T13:53:53.100Z</updated>
+    
+    <content type="html"><![CDATA[<style>​    #post{    letter-spacing: 0.05em;    font-size: 100px;    font-family: STLiti;    padding: 5px 0;​    }#post .text{    letter-spacing: 0.05em;    font-size: 20px;    font-family: STLiti;    padding: 5px 0;    color:  }</style><center id="post"><br><br>​    <div class="text"><br><br>#     题都城南庄<br><br>​    崔护<br><br>​    去年今日此门中，人面桃花相映红。<br><br>​    人面不知何处去，桃花依旧笑春风。<br><br>​    </div><br><br></center>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;style&gt;
+
+​    #post{
+
+    letter-spacing: 0.05em;
+    font-size: 100px;
+    font-family: STLiti;
+    padding: 5px 0;
+​    }
+
+#post .text{
+
+ 
+      
+    
+    </summary>
+    
+      <category term="唐诗选抄" scheme="https://yousite.com/categories/%E5%94%90%E8%AF%97%E9%80%89%E6%8A%84/"/>
+    
+    
+      <category term="崔护诗选" scheme="https://yousite.com/tags/%E5%B4%94%E6%8A%A4%E8%AF%97%E9%80%89/"/>
     
   </entry>
   
